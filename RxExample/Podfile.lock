@@ -1,0 +1,65 @@
+PODS:
+  - EmptyDataSet-Swift (5.0.0)
+  - JXPagingView/Paging (2.1.2)
+  - JXSegmentedView (1.3.0)
+  - MJRefresh (3.7.5)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxExtensions (0.0.1):
+    - RxCocoa
+    - RxExtensions/UIKit (= 0.0.1)
+    - RxSwift
+  - RxExtensions/EmptyDataSet (0.0.1):
+    - EmptyDataSet-Swift
+    - RxCocoa
+    - RxSwift
+  - RxExtensions/JXSegmentedView (0.0.1):
+    - JXPagingView/Paging
+    - JXSegmentedView
+    - RxCocoa
+    - RxSwift
+  - RxExtensions/MJRefresh (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - RxSwift
+  - RxExtensions/UIKit (0.0.1):
+    - RxCocoa
+    - RxSwift
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - RxExtensions (from `../RxExtensions`)
+  - RxExtensions/EmptyDataSet (from `../RxExtensions`)
+  - RxExtensions/JXSegmentedView (from `../RxExtensions`)
+  - RxExtensions/MJRefresh (from `../RxExtensions`)
+
+SPEC REPOS:
+  trunk:
+    - EmptyDataSet-Swift
+    - JXPagingView
+    - JXSegmentedView
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxExtensions:
+    :path: "../RxExtensions"
+
+SPEC CHECKSUMS:
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
+  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxExtensions: fc7db78f96316c8beb6a9809a0068ddaac680731
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 11125f4b8264a4a814b19d3da5fd9c3bd1325c46
+
+COCOAPODS: 1.11.2

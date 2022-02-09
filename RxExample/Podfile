@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RxExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RxExample
+    pod 'RxExtensions', :path=>'../RxExtensions'
+    pod 'RxExtensions/MJRefresh', :path=>'../RxExtensions'
+    pod 'RxExtensions/EmptyDataSet', :path=>'../RxExtensions'
+    pod 'RxExtensions/JXSegmentedView', :path=>'../RxExtensions'
+
+end
