@@ -19,16 +19,26 @@ Pod::Spec.new do |s|
   s.subspec 'MJRefresh' do |ss|
     ss.source_files = 'Sources/MJRefresh/*.swift'
     ss.dependency 'MJRefresh'
-    end
+  end
   
   s.subspec 'EmptyDataSet' do |ss|
     ss.source_files = 'Sources/EmptyDataSet/*.swift'
     ss.dependency 'EmptyDataSet-Swift'
-    end
+  end
   
   s.subspec 'JXSegmentedView' do |ss|
     ss.source_files = 'Sources/JxSegmentedView/*.swift'
     ss.dependency 'JXSegmentedView'
     ss.dependency 'JXPagingView/Paging'
-    end
+  end
+
+  s.subspec 'Alamofire' do |ss|
+    ss.source_files = 'Sources/Alamofire/*.swift'
+    ss.dependency 'Alamofire'
+  end
+
+  s.subspec 'ASAuthorizationAppleIDProvider' do |ss|
+    ss.platform = :ios, "13.0"
+    ss.source_files = 'Sources/ASAuthorizationAppleIDProvider/*.swift'
+  end 
 end

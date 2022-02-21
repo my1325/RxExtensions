@@ -15,7 +15,7 @@ public extension Reactive where Base: UIButton {
         return base.rx.tap.asObservable().flatMap { _ in Observable.just(base) }
     }
     
-    var oppositiveSelectedWhenTap: Observable<Bool> {
-        return tap().do(onNext: { $0.isSelected = !$0.isSelected }).map({ $0.isSelected })
+    var toggleSelected: Observable<Bool> {
+        return tap().do(onNext: { $0.isSelected.toggle() }).map({ $0.isSelected })
     }
 }

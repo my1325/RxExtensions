@@ -10,5 +10,7 @@ target 'RxExample' do
     pod 'RxExtensions/MJRefresh', :path=>'../RxExtensions'
     pod 'RxExtensions/EmptyDataSet', :path=>'../RxExtensions'
     pod 'RxExtensions/JXSegmentedView', :path=>'../RxExtensions'
-
+    pod 'RxExtensions/Alamofire', :path=>'../RxExtensions'
+    pod 'RxExtensions/ASAuthorizationAppleIDProvider', :path=>'../RxExtensions'
+    
 end

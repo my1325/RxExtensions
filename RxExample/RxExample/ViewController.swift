@@ -64,6 +64,7 @@ class ViewController: UIViewController {
     private var pages: [Pages] = [.default, .default, .default, .default]
     
     private let disposeBag = DisposeBag()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -71,7 +72,7 @@ class ViewController: UIViewController {
         edgesForExtendedLayout = .bottom
         
         Observable.just(pages.map({ $0.title })).bind(to: segmentedDataSource.rx.titles).disposed(by: disposeBag)
-        Observable.just(pages.map({ $0.listController })).bind(to: listContainerView.rx.dataSource).disposed(by: disposeBag)
+        Observable.just(pages.map({ $0.listController })).bind(to: listContainerView.rx.dataSource).disposed(by: disposeBag)     
     }
 }
 
